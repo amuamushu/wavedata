@@ -5,9 +5,9 @@ import random as random
 
 import matplotlib.pyplot as plt
 
-from wavedata.tools.core import calib_utils
-from wavedata.tools.obj_detection import obj_utils
-from wavedata.tools.visualization import vis_utils
+from wavedata.wavedata.tools.core import calib_utils
+from wavedata.wavedata.tools.obj_detection import obj_utils
+from wavedata.wavedata.tools.visualization import vis_utils
 
 ROOTDIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 
